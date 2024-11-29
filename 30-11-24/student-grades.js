@@ -16,16 +16,14 @@
 // ];
 
 
-// Array of student objects
 const students = [
     { name: "Anna", grade: 85 },
     { name: "Mariam", grade: 92 },
     { name: "Olivia", grade: 76 },
     { name: "Emma", grade: 59 },
-    { name: "John", grade: 45 }, // Example for a "Fail" case
+    { name: "John", grade: 45 }, 
   ];
   
-  // Function to determine grade status based on the grade
   function determineGradeStatus(grade) {
     switch (true) {
       case grade >= 90:
@@ -39,7 +37,6 @@ const students = [
     }
   }
   
-  // Loop through each student and determine their grade status
   for (let i = 0; i < students.length; i++) {
     const student = students[i];
     const status = determineGradeStatus(student.grade);
