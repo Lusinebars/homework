@@ -38,10 +38,8 @@ function translateDayToArmenian(day) {
     return translatedDay;
   }
   
-  // Prompt the user for input
   const userInput = prompt('Enter the day of the week in English:');
   const result = translateDayToArmenian(userInput);
   
 
-  // Output the result
   alert(`The day '${userInput}' in Armenian is: ${result}`);

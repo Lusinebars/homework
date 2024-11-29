@@ -25,5 +25,5 @@ switch (operation) {
         result = 'Invalid operation!';
 }
  
-// Show the result
-alert('The result is: ' + result);
+
+alert('The result is:' + result);
