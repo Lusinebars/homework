@@ -11,12 +11,12 @@
 // 2 // Because the strings "react" and "redux" share the characters 'r' and 'e'
 
 
-const str1 = "react";
-const str2 = "redux";
+const str1 = 'react';
+const str2 = 'redux';
 
 let commonCount = 0;
 
-let checkedChars = "";
+let checkedChars = '';
 
 for (let i = 0; i < str1.length; i++) {
   const char = str1[i];
